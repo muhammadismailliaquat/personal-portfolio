@@ -1,53 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website Title -->
     <title>Muhammad Ismail Liaquat | Frontend Developer</title>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <!-- header -->
-    <header>
-        <h1><a href="#home">MI</a></h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-        </nav>
+
+    <!-- Navbar -->
+
+    <header class="navbar">
+
+        <div class="container">
+
+            <div class="logo">
+
+                <a href="index.html">MI</a>
+
+            </div>
+
+            <nav>
+
+                <ul class="nav-links">
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="projects.html">Projects</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
     </header>
 
-    <!-- main -->
-    <main>
-        <!-- home section  -->
-        <section id="home">
-            <h2>Muhammad Ismail Liaquat</h2>
-            <p>Frontend Developer | Learning Full Stack Web Development</p>
-            <p>I build clean and responsive websites while learning modern web development.</p>
-            <a href="#contact">Contact Me</a>
-            <a href="#projects">View Projects</a>
+    <!-- Hero Section -->
 
-        </section>
-        
-        <!-- about sectoin  -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hi, I am Muhammad Ismail Liaquat. I am currently learning Full Stack Web Development. I am passionate about building clean and user-friendly websites.</p>
-        </section>
+    <section class="hero">
 
-        <!-- skills section  -->
-        <section id="skills">
-            <h2>My Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>Basic CSS</li>
-                <li>Learning JavaScript</li>
-                <li>Git</li>
-                <li>GitHub</li>
-            </ul>
-        </section>
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <p class="hello">Hello, I'm</p>
+
+                <h1>Muhammad Ismail Liaquat</h1>
+
+                <h2>Full Stack Developer</h2>
+
+                <p class="hero-description">
+
+                    I build clean and responsive websites while learning modern web development. My goal is to become a
+                    professional Full Stack Developer and create modern digital experiences.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#" class="btn btn-primary">Download CV</a>
+
+                    <a href="projects.html" class="btn btn-secondary">View Projects</a>
+
+                </div>
+
+                <div class="hero-badges">
+
+                    <span>Frontend Developer</span>
+
+                    <span>Learning Full Stack</span>
+
+                    <span>Available for Learning & Freelance Projects</span>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img src="images/profile.png" alt="Muhammad Ismail Liaquat">
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- About Preview -->
+
+    <section class="about-preview">
+
+        <div class="container about-content">
+
+            <div class="about-image">
+
+                <img src="images/profile.png" alt="About Image">
+
+            </div>
+
+            <div class="about-text">
+
+                <h2>About Me</h2>
+
+                <p>
+
+                    Hi, I'm Muhammad Ismail Liaquat, a passionate Frontend Developer currently learning Full Stack Web
+                    Development. I enjoy creating clean, responsive, and user-friendly websites while improving my
+                    development skills every day.
+
+                </p>
+
+                <a href="about.html" class="btn btn-primary">Read More</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+
+    <section class="skills">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>My Skills</h2>
+
+                <p>Technologies I have learned and continue to improve.</p>
+
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <h3>HTML5</h3>
+
+                    <p>Semantic and well-structured web pages.</p>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <h3>CSS3</h3>
+
+                    <p>Responsive layouts with modern styling.</p>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <h3>JavaScript</h3>
+
+                    <p>Currently learning modern JavaScript.</p>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <h3>Git</h3>
+
+                    <p>Version control for project management.</p>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <h3>GitHub</h3>
+
+                    <p>Hosting and sharing projects online.</p>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <h3>Responsive Design</h3>
+
+                    <p>Building websites for all screen sizes.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
         <!-- projects section  -->
         <section id="projects">
@@ -72,62 +234,71 @@
                 <p>A modern profile card built with HTML and CSS featuring hover effects, social links, and a clean responsive design.</p>
                 <a href="https://github.com/muhammadismailliaquat/profile-card-html-css" target="_blank">View on GitHub</a>
             </article>
-            <article>
-                <h3>Personal Profile Card</h3>
-                <p>A modern profile card built with HTML and CSS featuring hover effects, social links, and a clean responsive design.</p>
-                <a href="https://github.com/muhammadismailliaquat/flexbox-layout-practice" target="_blank">View on GitHub</a>
-            </article>
-            <article>
-                <h3>Advanced Flexbox Practice</h3>
-                <p>A responsive services section built using advanced CSS Flexbox concepts.</p>
-                <a href="https://github.com/muhammadismailliaquat/flexbox-advanced-practice" target="_blank">View on GitHub</a>
-            </article>
-            <article>
-                <h3>CSS Position Blog Layout</h3>
-                <p>Designed a modern blog landing page using HTML and CSS while practicing CSS Position properties such as Sticky and Fixed. The project includes a responsive navigation bar, hero section, blog cards, hover animations, badges, and a scroll-to-top button.</p>
-                <a href="https://github.com/muhammadismailliaquat/css-position-blog-layout" target="_blank">View on GitHub</a>
-            </article>
-            <article>
-                <h3>CSS Grid Product Gallery</h3>
-                <p>Designed a modern product gallery using CSS Grid. Practiced grid-template-columns, repeat(), fr units, gap, grid-column span, responsive layouts, hover animations, and reusable product cards to build a clean shopping-style interface.</p>
-                <a href="https://github.com/muhammadismailliaquat/practice-09-css-grid-product-gallery" target="_blank">View on GitHub</a>
-            </article>
-            <article>
-                <h3>CSS Final Landing Page</h3>
-                <p>A modern responsive landing page built using HTML5 and CSS3. This final CSS practice project combines Flexbox, CSS Grid, Position, Media Queries, hover animations, and responsive layouts into one complete website.</p>
-                <a href="https://github.com/muhammadismailliaquat/practice-10-css-final-landing-page" target="_blank">View on GitHub</a>
-            </article>
-            <article>
-                <h3>Restaurant Website</h3>
-                <p>A modern responsive restaurant website built using HTML5 and CSS3 with multiple pages, clean layouts, and responsive design.</p>
-                <a href="https://github.com/muhammadismailliaquat/project-01-restaurant-website" target="_blank">View on GitHub</a>
-            </article>
         </section>
 
-        <!-- services section  -->
-        <section id="services">
-            <h2>Services</h2>
-            <ul>
-                <li>HTML Website Development</li>
-                <li>Semantic HTML Structure</li>
-                <li>Landing Page Development</li>
-            </ul>
-        </section>
+    <!-- Footer -->
 
-        <!-- contact section  -->
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:ismi.webdev@gmail.com">ismi.webdev@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/muhammad-ismail-liaquat-12712941a/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
-            <p>GitHub: <a href="https://github.com/muhammadismailliaquat" target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
-            <p>Youtube: <a href="https://www.youtube.com/@muhammad.ismail.liaquat" target="_blank" rel="noopener noreferrer">Youtube Channel</a></p>
-            <p>Instagram: <a href="https://www.instagram.com/m.ismail.liaquat/" target="_blank" rel="noopener noreferrer">Instagram Account</a></p>
-        </section>
-    </main>
+    <footer class="footer">
 
-    <!-- footer  -->
-     <footer>
-        <p>© 2026 Muhammad Ismail Liaquat. All Rights Reserved.</p>
-     </footer>
+        <div class="container footer-content">
+
+            <div class="footer-logo">
+
+                <h2>MI</h2>
+
+                <p>Frontend Developer</p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="projects.html">Projects</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-social">
+
+                <h3>Connect</h3>
+
+                <ul>
+
+                    <li><a href="mailto:ismi.webdev@gmail.com">Email</a></li>
+
+                    <li><a href="https://github.com/muhammadismailliaquat" target="_blank">GitHub</a></li>
+
+                    <li><a href="https://www.linkedin.com/in/muhammad-ismail-liaquat-12712941a/"
+                            target="_blank">LinkedIn</a></li>
+
+                    <li><a href="https://www.instagram.com/m.ismail.liaquat/" target="_blank">Instagram</a></li>
+
+                    <li><a href="https://www.youtube.com/@muhammad.ismail.liaquat" target="_blank">YouTube</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>&copy; 2026 Muhammad Ismail Liaquat. All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
 </body>
+
 </html>

@@ -1,30 +1,66 @@
-# Personal Portfolio
+# Personal Portfolio Website
 
-A simple personal portfolio website built using HTML5 and semantic HTML elements.
+A modern and fully responsive personal portfolio website built using HTML5 and CSS3.
+
+## Live Demo
+
+🌐 https://YOUR-LIVE-PORTFOLIO-LINK
 
 ## Features
 
-- Semantic HTML5 structure
-- Navigation bar with anchor links
-- Hero, About, Skills, Projects, Services, and Contact sections
-- Footer
+- Responsive Design
+- Sticky Navigation Bar
+- Hero Section
+- About Section
+- Skills Section
+- Projects Showcase
+- Contact Section
+- Download CV Button
+- Hover Effects & Smooth Transitions
+- Modern UI Design
+- Mobile Friendly Layout
 
 ## Technologies Used
 
-- HTML5 only — no CSS, no JavaScript
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Media Queries
+- Google Fonts (Poppins)
+
+## What I Learned
+
+- Building responsive layouts
+- Combining Flexbox and CSS Grid
+- Creating reusable components
+- Responsive navigation
+- Organizing project structure
+- Improving UI with animations and hover effects
+
+## Future Improvements
+
+- JavaScript Interactivity
+- Dark Mode
+- Contact Form Validation
+- Project Filtering
+- React.js Version
+- Backend Integration
 
 ## Project Structure
 
-personal-portfolio/
-├── index.html
+```
+Portfolio/
+│── index.html
+│── style.css
+│── images/
+│── cv/
 └── README.md
-
-## Purpose
-
-Built to practice semantic HTML while learning Full Stack Web Development.
+```
 
 ## Author
 
-Muhammad Ismail Liaquat
-- LinkedIn: https://www.linkedin.com/in/muhammad-ismail-liaquat-12712941a/
+**Muhammad Ismail Liaquat**
+
 - GitHub: https://github.com/muhammadismailliaquat
+- LinkedIn: https://www.linkedin.com/in/muhammad-ismail-liaquat-12712941a/
