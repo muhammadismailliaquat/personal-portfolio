@@ -157,12 +157,6 @@ ul{
     flex: 1;
 }
 
-.hello{
-    color: #f97316;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
 .hero-text h1{
     font-size: 55px;
     line-height: 1.2;
